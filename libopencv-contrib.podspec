@@ -22,5 +22,5 @@ s.header_dir = "header_dir"
 s.header_mappings_dir = "opencv2.framework/Versions/A/Headers/"
 s.libraries = "stdc++"
 s.frameworks = "Accelerate", "AssetsLibrary", "AVFoundation", "CoreGraphics", "CoreImage", "CoreMedia","CoreVideo","Foundation","QuartzCore","UIKit"
-
+s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
